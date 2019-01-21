@@ -1,4 +1,4 @@
-# USACOTraining
+# USACO Solutions
 
 December 2018 | Contest Division | Problem Number
 
