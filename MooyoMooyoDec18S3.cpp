@@ -27,7 +27,6 @@ void del(int x, int y){
         for(int i = 0; i < 4; i++){
             int xc = xr + d[i][0];
             int yc = yr + d[i][1];
-            // expand grid if WA
             if(xc>-1&&yc>-1&&xc<n&&yc<10){
                 if(!vis2[xc][yc]&&g[xc][yc]==BAD){
                     vis2[xc][yc]=1;
