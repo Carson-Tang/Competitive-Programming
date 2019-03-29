@@ -25,7 +25,6 @@ int main(){
         }
         cnt-=c[lb++];
         cnt+=c[++rb];
-
     }
     cout<<ans<<"\n";
     return 0;
