@@ -39,6 +39,6 @@ int main(){
         adj[b].push_back(a);
     }
     dfs(1);
-    cout<<dia+1<<" "<<ways;
+    cout<<dia+1<<" "<<ways<<"\n";
     return 0;
 }
