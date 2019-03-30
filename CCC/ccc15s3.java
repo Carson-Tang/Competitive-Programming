@@ -2,11 +2,11 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    public static int c =0;
     public static void main(String [] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int g = Integer.parseInt(br.readLine());
         int p = Integer.parseInt(br.readLine());
+        int c = 0;
         int [] parent = new int[g+1];
         for(int i = 1; i <= g; i++) {
             parent[i] = i;
