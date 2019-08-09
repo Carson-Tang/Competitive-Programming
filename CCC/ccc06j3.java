@@ -62,7 +62,7 @@ public class Main {
         while(true){
             String s = sc.readLine();
             if(s.equals("halt")){
-                System.exit(0);
+                return;
             }
             c += y.get(s.charAt(0));
             for(int i = 1; i < s.length(); i++) {
